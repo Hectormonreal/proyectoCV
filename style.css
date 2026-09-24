@@ -1,11 +1,22 @@
-img{
-    width: 70px;
-    height: 70px;
+.imagen-perfil{
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
+}
+.circulito{
+    widht: 100px;
+    height: 100px;
 }
 body{
     display: flex;
     justify-content: center;
+    font-family: PT Sans, sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: Playfair Display, serif;
+}
+h4{
+    color: #9E8C6C;
 }
 .pagina{
     width: 375px;
@@ -14,4 +25,16 @@ body{
 ul{
     list-style: none;
     padding: 0;
+}
+.listaenlaces{
+    color: #0699A6;
+}
+button{
+    background-color: #0699A6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 225px;
 }
