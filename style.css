@@ -3,3 +3,15 @@ img{
     height: 70px;
     border-radius: 50%;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
+.pagina{
+    width: 375px;
+    height: 447px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
