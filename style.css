@@ -1,35 +1,82 @@
-.imagen-perfil{
+/* Da forma circular y tamaño a la foto del perfil. */
+.imagen-perfil {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
+    top: 80px;
+    left: 108px;
+    transform: rotate(0deg);
+    border-radius: 175px;
 }
-.circulito{
-    widht: 100px;
+
+/* Coloca y ajusta la imagen decorativa sobre la foto. */
+.circulito {
+    position: absolute;
+    width: 100px;
     height: 100px;
+    left: 90px;
+    top: -30px;
 }
-body{
+
+/* Alinea y centra la foto junto con la imagen decorativa. */
+.contenedor {
+    position: relative;
     display: flex;
     justify-content: center;
-    font-family: PT Sans, sans-serif;
+    align-items: center;
+    text-align: center;
 }
-h1, h2, h3, h4{
+
+/* Define el aspecto del nombre grande de la cabecera. */
+.nombre {
+    font-family: "Playfair Display";
+    font-weight: 900px;
+    font-size: 56px;
+    line-height: 46px;
+    letter-spacing: 0;
+}
+
+/* Centra la página y establece el tipo de letra general. */
+body {
+    display: flex;
+    justify-content: center;
+    font-family: PT Sans, sans-narrow;
+    margin: 0;
+}
+
+/* Usa la misma familia de letra para los títulos secundarios. */
+h2, h3, h4 {
     font-family: Playfair Display, serif;
 }
-h4{
+
+/* Da color a los títulos h4. */
+h4 {
     color: #9E8C6C;
 }
-.pagina{
-    width: 375px;
+
+/* Establece las dimensiones de la página del currículum. */
+.pagina {
     height: 447px;
 }
-ul{
+
+/* Quita las viñetas y el espacio interior de todas las listas. */
+ul {
     list-style: none;
     padding: 0;
 }
-.listaenlaces{
+
+/* Da color turquesa a los enlaces y datos de contacto. */
+.listaenlaces {
     color: #0699A6;
 }
-button{
+
+/* Da estilo al texto de profesión bajo la foto. */
+.designer {
+    color: #9E8C6C;
+    font-family: PT Sans, sans-narrow;
+}
+
+/* Define el color, el tamaño y la forma del botón de contacto. */
+button {
     background-color: #0699A6;
     color: white;
     border: none;
@@ -37,4 +84,45 @@ button{
     cursor: pointer;
     height: 60px;
     width: 225px;
+}
+
+/* Organiza y centra verticalmente los elementos de la cabecera. */
+header {
+    background-color: rgba(158, 140, 108, 0.1);
+    width: 100%;
+    height: 576px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Da fondo, tamaño y espacio interior a la zona de contacto final. */
+footer {
+    background-color: rgba(158, 140, 108, 0.1);
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    letter-spacing: -1.14px;
+    line-height: 10px;
+}
+main{
+    padding: 30px;
+}
+.getin{
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -1.00px;
+    text-align: center;
 }
