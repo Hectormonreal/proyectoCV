@@ -77,6 +77,8 @@ ul {
 .designer {
     color: #9E8C6C;
     font-family: PT Sans, sans-narrow;
+    margin: auto;
+    margin-top: 20px;
 }
 
 /* Define el color, el tamaño y la forma del botón de contacto. */
@@ -154,6 +156,32 @@ main{
     }
     .redes{
         margin-left: 144px;
+    }
+    .colorazul{
+        margin-left: 144px;
+    }
+    .imagen-perfil {
+    width: 200px;
+    height: 200px;
+    top: 80px;
+    left: 284px;
+    border-radius: 175px;
+    opacity: 1;
+    }
+    .circulito {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -20px;
+    left: 120px;
+    opacity: 1;
+    }
+    .contenedor {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     }
     footer{
         width: auto;
