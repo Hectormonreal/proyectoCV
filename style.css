@@ -146,10 +146,14 @@ main{
         top: -20px;
     }
     .nombre {
-        font-size: 40px;
+        font-size: 86px;
+        line-height: 76px;
     }
-    p {
+    p, li {
         margin-left: 144px;
+        font-size: 20px;
+        line-height: 34px;
+        
     }
     h2, h3, h4 ,li {
         margin-left: 144px;
@@ -188,5 +192,14 @@ main{
     }
     header{
         width: auto;
+    }
+    .designer{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 18px;
     }
 }
