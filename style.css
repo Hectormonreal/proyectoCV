@@ -34,7 +34,7 @@
     line-height: 46px;
     letter-spacing: 0;
 }
-.colorazul{
+.colorazul,.colorazul2 {
     width: 54px;
     height: 10px;
     background-color: #0699A6;
@@ -58,9 +58,6 @@ h4 {
 }
 
 /* Establece las dimensiones de la página del currículum. */
-.pagina {
-    height: 447px;
-}
 
 /* Quita las viñetas y el espacio interior de todas las listas. */
 ul {
@@ -131,6 +128,9 @@ main{
     letter-spacing: -1.00px;
     text-align: center;
 }
+span{
+        display: none;
+    }
 
 @media (min-width: 768px) {
     .imagen-perfil {
@@ -158,10 +158,12 @@ main{
     h2, h3, h4 ,li {
         margin-left: 144px;
     }
-    .redes{
-        margin-left: 144px;
+    .redes {
+        width: 220px;
+        height: auto;
+        margin: 0;
     }
-    .colorazul{
+    .colorazul, .colorazul2{
         margin-left: 144px;
     }
     .imagen-perfil {
@@ -187,8 +189,33 @@ main{
     align-items: center;
     text-align: center;
     }
-    footer{
-        width: auto;
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: normal;
+    }
+    .getin {
+        font-size: 52px;
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+    .email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: 24px;
+        white-space: nowrap;
+    }
+    .email p {
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        line-height: normal;
     }
     header{
         width: auto;
@@ -201,5 +228,117 @@ main{
     }
     h4{
         font-size: 18px;
+    }
+    span{
+        display: none;
+    }
+}
+@media (min-width: 1440px){
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 106px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    header{
+        height: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 106px;
+    }
+    .imagen-perfil {
+    width: 350px;
+    height: 350px;
+    top: 80px;
+    left: 284px;
+    border-radius: 175px;
+    opacity: 1;
+    }
+    .circulito {
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    top: 240px;
+    left: 240px;
+    opacity: 1;
+    }
+    .designer{
+        font-size: 18px;
+        text-align: left;
+        display: block;
+    }
+    .nombre{
+        font-weight: 900;
+        font-size: 126px;
+        line-height: 90px;
+        text-align: left;
+        margin: 15px 0;
+    }
+    button {
+        display: block;
+        margin-top: 20px;
+    }
+    .colorazul2{
+        display: none;
+    }
+    .infotrabajo{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer {
+        height: 373px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .getin {
+        font-size: 66px;
+        margin: 0 0 30px;
+        line-height: 1.2;
+    }
+
+    .listaenlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        color: #0699A6;
+    }
+
+    .email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 28px;
+        line-height: normal;
+        white-space: nowrap;
+    }
+
+    .email p {
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+        line-height: normal;
+    }
+
+    .email span {
+        display: inline-block;
+        font-size: 35px;
+        line-height: 1;
+    }
+
+    .redes {
+        width: 220px;
+        height: auto;
+        margin: 0;
     }
 }
